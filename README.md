@@ -1,3 +1,16 @@
+## Cara menjalakan projek ini!
+
+buka cmd/terminal,run :
+>`git clone https://gitlab.com/pusatahliindonesia/landing_pusat_ahli.git`.
+buka file projek diatas, run:
+>`composer update`.
+pastikan versi phpnya sesuai.
+lalu setting file `.env` sesuai DB yang ada.
+>next `php artisan migrate`.
+>finally `php artisan serve`.
+
+:)
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
