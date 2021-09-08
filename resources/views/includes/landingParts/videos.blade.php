@@ -3,7 +3,7 @@
         <h2 class="h2 mb-4">
             Video pembelajaran
         </h2>
-        <div class="row">
+        <div class="row bg-gray-100 p-4 rounded">
             <div class="col-sm-12 col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe

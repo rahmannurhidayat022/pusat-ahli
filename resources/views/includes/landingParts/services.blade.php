@@ -21,7 +21,7 @@
                             Belajar Ahli yang akan kami rekomendasikan di Tempat
                             Ahli
                         </p>
-                        <button class="btn py-3 btn-primary btn-block rounded">
+                        <button class="btn py-3 btn-purple btn-block rounded">
                             Gabung untuk menunggu
                         </button>
                     </div>
@@ -43,7 +43,7 @@
                             akan menyesuaikan antara sertifikasi keahlian anda
                             dengan lowongan pekerjaan yang ada
                         </p>
-                        <button class="btn py-3 btn-primary btn-block rounded">
+                        <button class="btn py-3 btn-purple btn-block rounded">
                             Gabung untuk menunggu
                         </button>
                     </div>

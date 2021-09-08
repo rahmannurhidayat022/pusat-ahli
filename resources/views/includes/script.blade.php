@@ -14,7 +14,6 @@
     crossorigin="anonymous"
 ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="{{
         asset('vendors/OwlCarousel2-2.3.4/dist/owl.carousel.min.js')
     }}"></script>

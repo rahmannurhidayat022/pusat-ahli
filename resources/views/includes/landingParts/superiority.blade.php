@@ -4,15 +4,15 @@
             Kenapa TEMPAT AHLI itu berbeda?
         </h2>
         <div class="table-responsive">
-            <table class="table">
-                <thead class="bg-orange text-white">
+            <table class="table shadow-sm">
+                <thead class="bg-purple text-white">
                     <tr>
                         <th scope="col">Kualifikasi</th>
                         <th scope="col">Portal kerja lain</th>
                         <th scope="col">Tempat Ahli</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="bg-white">
                     <tr>
                         <th scope="row">
                             Hanya menampilkan dan merekomendasikan lowongan yang

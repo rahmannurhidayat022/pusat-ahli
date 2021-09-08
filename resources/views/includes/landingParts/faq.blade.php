@@ -8,7 +8,7 @@
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                         <button
-                            class="btn btn-link btn-block text-left"
+                            class="btn btn-block text-left"
                             type="button"
                             data-toggle="collapse"
                             data-target="#faq1"
@@ -37,7 +37,7 @@
                 <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
                         <button
-                            class="btn btn-link btn-block text-left collapsed"
+                            class="btn btn-block text-left collapsed"
                             type="button"
                             data-toggle="collapse"
                             data-target="#faq2"
@@ -70,7 +70,7 @@
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                         <button
-                            class="btn btn-link btn-block text-left collapsed"
+                            class="btn btn-block text-left collapsed"
                             type="button"
                             data-toggle="collapse"
                             data-target="#faq3"
@@ -99,7 +99,7 @@
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                         <button
-                            class="btn btn-link btn-block text-left collapsed"
+                            class="btn btn-block text-left collapsed"
                             type="button"
                             data-toggle="collapse"
                             data-target="#faq4"
@@ -126,7 +126,7 @@
                 <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                         <button
-                            class="btn btn-link btn-block text-left collapsed"
+                            class="btn btn-block text-left collapsed"
                             type="button"
                             data-toggle="collapse"
                             data-target="#faq5"

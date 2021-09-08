@@ -1,5 +1,5 @@
 <section data-aos="fade-up" id="teams" class="my-5">
-    <div class="container">
+    <div class="container bg-white p-4 rounded shadow-sm">
         <h2 class="h2 mb-4">
             Tim kami
         </h2>

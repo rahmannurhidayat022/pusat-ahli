@@ -6,7 +6,7 @@
             <span class="text-orange">AHLI</span>?
         </h2>
     </div>
-    <div class="feature-1 shadow-sm mb-3 py-5 bg-gray-100">
+    <div class="feature-1 shadow-sm mb-3 py-5 bg-white">
         <div class="container">
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
@@ -29,7 +29,7 @@
                         bidangnya, ribuan video pembelajaran, sertifikasi
                         keahlian dan Prioritas Mendapatkan pekerjaan dalam satu
                         platform.
-                        <button class="btn btn-primary rounded mt-4 d-block">
+                        <button class="btn btn-purple rounded mt-4 d-block">
                             Selengkapnya
                         </button>
                     </p>
@@ -66,7 +66,7 @@
                         <strong>untuk masuk pekerjaan di Tempat Ahli.</strong>
                         Kami juga menyediakan ribuan video pembelajaran, yang
                         bisa kamu akses dimana saja dan kapan saja.
-                        <button class="btn btn-primary rounded mt-4 d-block">
+                        <button class="btn btn-purple rounded mt-4 d-block">
                             Selengkapnya
                         </button>
                     </p>
@@ -83,7 +83,7 @@
             </div>
         </div>
     </div>
-    <div class="feature-3 shadow-sm mb-3 py-5 bg-gray-100">
+    <div class="feature-3 shadow-sm mb-3 py-5 bg-white">
         <div class="container">
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
@@ -110,7 +110,7 @@
                         merekomendasikan anda di portal loker kami di
                         <strong>Tempat Ahli.</strong> Tentunya sesuai dengan
                         pendidikan dan sertifikasi anda.
-                        <button class="btn btn-primary rounded mt-4 d-block">
+                        <button class="btn btn-purple rounded mt-4 d-block">
                             Selengkapnya
                         </button>
                     </p>

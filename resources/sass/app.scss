@@ -42,12 +42,17 @@
 @import "utilities";
 @import "print";
 
+body {
+    background-image: url("../frontend/img/background.png");
+}
+
 .navbar-nav {
     .nav-item:hover {
-        border-radius: 10px;
-        background-color: $orange;
+        border-bottom: 1px solid $gray-700;
+    }
+    .nav-item {
         a.nav-link {
-            color: $white;
+            color: $gray-300;
         }
     }
 }
