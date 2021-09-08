@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta content="" name="keywords" />
         <meta content="" name="description" />
-        @include('includes.style') @include('includes.script')
+        @include('includes.style')
     </head>
     <body>
         @include('includes.navbar') @include('includes.landingParts.hero')
@@ -21,5 +21,9 @@
         @include('includes.landingParts.videos')
         @include('includes.landingParts.teams')
         @include('includes.landingParts.faq') @include('includes.footer')
+        <button id="backTop" class="btn btn-orange shadow back-to-top">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+        @include('includes.script')
     </body>
 </html>
