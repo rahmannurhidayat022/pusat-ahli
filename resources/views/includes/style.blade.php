@@ -12,8 +12,9 @@
 
   <!-- Main Stylesheet File -->
   <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
-
+  <link href="{{asset('css/app.css')}}" rel="stylesheet">
+<!-- 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
