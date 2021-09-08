@@ -11,6 +11,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
+                        loading="lazy"
                         class="img-fluid"
                         src="{{ asset('images/feature-1.png') }}"
                         alt="1st top learning"
@@ -39,6 +40,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-0 d-flex justify-content-end">
                     <img
+                        loading="lazy"
                         class="img-fluid d-block d-md-none"
                         src="{{ asset('images/feature-2.png') }}"
                         alt="1st top learning"
@@ -67,6 +69,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex justify-content-end">
                     <img
+                        loading="lazy"
                         class="img-fluid d-none d-md-block"
                         src="{{ asset('images/feature-2.png') }}"
                         alt="1st top learning"
@@ -80,6 +83,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
+                        loading="lazy"
                         class="img-fluid"
                         src="{{ asset('images/feature-3.png') }}"
                         alt="1st top learning"

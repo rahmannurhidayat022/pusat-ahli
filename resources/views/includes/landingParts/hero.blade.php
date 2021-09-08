@@ -24,6 +24,7 @@
             </div>
             <div class="col-sm-12 col-md-6 d-flex justify-content-end">
                 <img
+                    loading="lazy"
                     class="d-none d-md-block"
                     width="370px"
                     src="{{ asset('images/hero.png') }}"
