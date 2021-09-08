@@ -35,7 +35,7 @@ $grays: map-merge(
 
 $blue: #26b3ee !default;
 $indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
+$purple: #060534 !default;
 $pink: #e83e8c !default;
 $red: #dc3545 !default;
 $orange: #f8af46 !default;
@@ -1047,8 +1047,8 @@ $list-group-border-color: rgba($black, 0.125) !default;
 $list-group-border-width: $border-width !default;
 $list-group-border-radius: $border-radius !default;
 
-$list-group-item-padding-y: 0.75rem !default;
-$list-group-item-padding-x: 1.25rem !default;
+$list-group-item-padding-y: 0.2rem !default;
+$list-group-item-padding-x: 0.7rem !default;
 
 $list-group-hover-bg: $gray-100 !default;
 $list-group-active-color: $component-active-color !default;

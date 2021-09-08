@@ -8,7 +8,7 @@
 :root {
   --blue: #26b3ee;
   --indigo: #6610f2;
-  --purple: #6f42c1;
+  --purple: #060534;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #f8af46;
@@ -5024,9 +5024,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.75rem 1.25rem;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 0.2rem 0.7rem;
+  color: #6c757d;
+  border: none;
+}
+.list-group-item:hover {
+  color: #343a40;
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -5053,6 +5056,12 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item + .list-group-item.active {
   margin-top: -1px;
   border-top-width: 1px;
+}
+.list-group-item a {
+  color: #6c757d;
+}
+.list-group-item a:hover {
+  color: #343a40;
 }
 
 .list-group-horizontal {
@@ -6158,13 +6167,13 @@ button.bg-indigo:focus {
 }
 
 .bg-purple {
-  background-color: #6f42c1 !important;
+  background-color: #060534 !important;
 }
 
 a.bg-purple:hover, a.bg-purple:focus,
 button.bg-purple:hover,
 button.bg-purple:focus {
-  background-color: #59339d !important;
+  background-color: #010105 !important;
 }
 
 .bg-pink {
@@ -10049,11 +10058,11 @@ a.text-indigo:hover, a.text-indigo:focus {
 }
 
 .text-purple {
-  color: #6f42c1 !important;
+  color: #060534 !important;
 }
 
 a.text-purple:hover, a.text-purple:focus {
-  color: #4e2d89 !important;
+  color: black !important;
 }
 
 .text-pink {
@@ -10357,6 +10366,13 @@ h3 {
 
 strong {
   color: #f8af46;
+}
+
+.list-group {
+  margin-bottom: 20px;
+}
+.list-group .list-group-item {
+  border: none;
 }
 
 /*# sourceMappingURL=app.css.map */

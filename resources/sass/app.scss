@@ -55,3 +55,10 @@
 strong {
     color: $orange;
 }
+
+.list-group {
+    margin-bottom: 20px;
+    .list-group-item {
+        border: none;
+    }
+}
