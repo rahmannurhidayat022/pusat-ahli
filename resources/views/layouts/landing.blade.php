@@ -55,7 +55,7 @@
                 </div>
             </div>
         </header>
-        <section id="features">
+        <section id="features" class="my-5">
             <div class="container">
                 <h2 class="h2 mb-4">
                     Kenapa harus belajar di
@@ -179,6 +179,141 @@
                                     Selengkapnya
                                 </button>
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="superiority" class="my-5">
+            <div class="container">
+                <h2 class="h2 mb-4">
+                    Kenapa TEMPAT AHLI itu berbeda?
+                </h2>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="bg-orange text-white">
+                            <tr>
+                                <th scope="col">Kualifikasi</th>
+                                <th scope="col">Portal kerja lain</th>
+                                <th scope="col">Tempat Ahli</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    Hanya menampilkan dan merekomendasikan
+                                    lowongan yang sesuai kualifikasi dan
+                                    keahlian pelamar
+                                </th>
+                                <td>
+                                    <i
+                                        class="text-danger fa fa-times fa-3x"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <i
+                                        class="text-success fa fa-check fa-3x"
+                                    ></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Pembuatan CV otomatis</th>
+                                <td>
+                                    <i
+                                        class="text-danger fa fa-times fa-3x"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <i
+                                        class="text-success fa fa-check fa-3x"
+                                    ></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Auto screnning kualifikasi pelamar</th>
+                                <td>
+                                    <i
+                                        class="text-danger fa fa-times fa-3x"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <i
+                                        class="text-success fa fa-check fa-3x"
+                                    ></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Seleksi psikotes</th>
+                                <td>
+                                    <i
+                                        class="text-danger fa fa-times fa-3x"
+                                    ></i>
+                                </td>
+                                <td>
+                                    <i
+                                        class="text-success fa fa-check fa-3x"
+                                    ></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="my-5">
+            <div class="container">
+                <h2 class="h2 mb-4">
+                    Layanan kami
+                </h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div
+                            class="card mb-3"
+                            style="border-radius: 20px; overflow: hidden;"
+                        >
+                            <img
+                                class="card-img-top"
+                                src="{{ asset('images/service-1.jpg') }}"
+                                alt="service-1"
+                            />
+                            <div class="card-body">
+                                <p>
+                                    Belajar Ahli adalah tempat bimbingan belajar
+                                    bagi semua kalangan dan kursus
+                                    bersertifikasi resmi dari Belajar Ahli yang
+                                    akan kami rekomendasikan di Tempat Ahli
+                                </p>
+                                <button
+                                    class="btn py-3 btn-primary btn-block rounded"
+                                >
+                                    Gabung untuk menunggu
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div
+                            class="card mb-3"
+                            style="border-radius: 20px; overflow: hidden;"
+                        >
+                            <img
+                                class="card-img-top"
+                                src="{{ asset('images/service-2.jpg') }}"
+                                alt="service-1"
+                            />
+                            <div class="card-body">
+                                <p>
+                                    Tempat Ahli adalah portal lowongan pekerjaan
+                                    yang akan menyesuaikan antara sertifikasi
+                                    keahlian anda dengan lowongan pekerjaan yang
+                                    ada
+                                </p>
+                                <button
+                                    class="btn py-3 btn-primary btn-block rounded"
+                                >
+                                    Gabung untuk menunggu
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
