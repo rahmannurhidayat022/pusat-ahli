@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-purple shadow-sm fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img
@@ -9,7 +9,7 @@
             />
         </a>
         <button
-            class="navbar-toggler text-gray-300"
+            class="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -27,8 +27,8 @@
                         >Home <span class="sr-only">(current)</span></a
                     >
                 </li>
-                <li class="nav-item px-2">
-                    <a class="nav-link" href="#faq">FAQ</a>
+                <li class="nav-item">
+                    <a class="nav-link px-2" href="#faq">FAQ</a>
                 </li>
             </ul>
         </div>

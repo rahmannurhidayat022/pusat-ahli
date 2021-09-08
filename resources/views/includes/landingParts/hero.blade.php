@@ -20,7 +20,7 @@
                     <span class="text-orange">AHLI</span> adalah satu satunya
                     start up penggabungan antara bimbingan online, kursus
                     bersertifikasi, dan lowongan pekerjaan pertama di indonesia.
-                    <button class="btn btn-purple rounded mt-4 d-block">
+                    <button class="btn btn-primary rounded mt-4 d-block">
                         Selengkapnya
                     </button>
                 </p>

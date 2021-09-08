@@ -5,7 +5,7 @@
         </h2>
         <div class="table-responsive">
             <table class="table shadow-sm">
-                <thead class="bg-purple text-white">
+                <thead class="bg-orange">
                     <tr>
                         <th scope="col">Kualifikasi</th>
                         <th scope="col">Portal kerja lain</th>
