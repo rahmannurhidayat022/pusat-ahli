@@ -12,7 +12,10 @@
             <div
                 class="d-flex flex-column align-items-center justify-content-md-center col-sm-12 col-md-6 "
             >
-                <p style="font-size: larger; line-height: 32px;">
+                <p
+                    data-aos="fade-up"
+                    style="font-size: larger; line-height: 32px;"
+                >
                     <span class="text-primary">PUSAT</span>
                     <span class="text-orange">AHLI</span> adalah satu satunya
                     start up penggabungan antara bimbingan online, kursus
@@ -24,6 +27,7 @@
             </div>
             <div class="col-sm-12 col-md-6 d-flex justify-content-end">
                 <img
+                    data-aos="fade-up"
                     loading="lazy"
                     class="d-none d-md-block"
                     width="370px"

@@ -1,4 +1,4 @@
-<section id="videos" class="my-5">
+<section data-aos="fade-up" id="videos" class="my-5">
     <div class="container">
         <h2 class="h2 mb-4">
             Video pembelajaran

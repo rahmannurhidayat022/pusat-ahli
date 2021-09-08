@@ -1,4 +1,4 @@
-<section id="services" class="my-5">
+<section data-aos="fade-up" id="services" class="my-5">
     <div class="container">
         <h2 class="h2 mb-4">
             Layanan kami

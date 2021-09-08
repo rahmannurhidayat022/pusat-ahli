@@ -1,6 +1,6 @@
 <section id="features" class="my-5">
     <div class="container">
-        <h2 class="h2 mb-4">
+        <h2 data-aos="fade-up" class="h2 mb-4">
             Kenapa harus belajar di
             <span class="text-primary">PUSAT</span>
             <span class="text-orange">AHLI</span>?
@@ -11,6 +11,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
+                        data-aos="fade-up"
                         loading="lazy"
                         class="img-fluid"
                         src="{{ asset('images/feature-1.png') }}"
@@ -19,6 +20,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <p
+                        data-aos="fade-up"
                         class="text-gray-600"
                         style="font-size: medium; line-height: 32px;"
                     >
@@ -40,6 +42,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-0 d-flex justify-content-end">
                     <img
+                        data-aos="fade-up"
                         loading="lazy"
                         class="img-fluid d-block d-md-none"
                         src="{{ asset('images/feature-2.png') }}"
@@ -47,10 +50,11 @@
                     />
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <h3 class="h4">
+                    <h3 data-aos="fade-up" class="h4">
                         Kenapa harus di BELAJAR AHLI?
                     </h3>
                     <p
+                        data-aos="fade-up"
                         class="text-gray-600"
                         style="font-size: medium; line-height: 32px;"
                     >
@@ -69,6 +73,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex justify-content-end">
                     <img
+                        data-aos="fade-up"
                         loading="lazy"
                         class="img-fluid d-none d-md-block"
                         src="{{ asset('images/feature-2.png') }}"
@@ -83,6 +88,7 @@
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
+                        data-aos="fade-up"
                         loading="lazy"
                         class="img-fluid"
                         src="{{ asset('images/feature-3.png') }}"
@@ -90,10 +96,11 @@
                     />
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <h3 class="h4">
+                    <h3 data-aos="fade-up" class="h4">
                         Kenapa harus di TEMPAT AHLI?
                     </h3>
                     <p
+                        data-aos="fade-up"
                         class="text-gray-600"
                         style="font-size: medium; line-height: 32px;"
                     >

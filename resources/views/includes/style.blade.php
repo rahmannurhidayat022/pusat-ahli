@@ -29,3 +29,4 @@
         )
     }}"
 />
+<link rel="stylesheet" href="{{ asset('vendors/aos-master/dist/aos.css') }}" />

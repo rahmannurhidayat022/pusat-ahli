@@ -18,10 +18,13 @@
 <script src="{{
         asset('vendors/OwlCarousel2-2.3.4/dist/owl.carousel.min.js')
     }}"></script>
+<script src="{{ asset('vendors/aos-master/dist/aos.js') }}"></script>
 <script src="{{ asset('js/app.js') }}"></script>
 
 <script>
     $(document).ready(function() {
+        AOS.init();
+
         var video_wrapper = $(".youtube-video-place");
         //  Check to see if youtube wrapper exists
         if (video_wrapper.length) {
