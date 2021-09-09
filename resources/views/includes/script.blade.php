@@ -30,7 +30,7 @@
             // If user clicks on the video wrapper load the video.
             $(".play-youtube-video").on("click", function() {
                 /* Dynamically inject the iframe on demand of the user.
- Pull the youtube url from the data attribute on the wrapper element. */
+    Pull the youtube url from the data attribute on the wrapper element. */
                 video_wrapper.html(
                     '<iframe allowfullscreen frameborder="0" class="embed-responsive-item" src="' +
                         video_wrapper.data("yt-url") +
@@ -41,7 +41,6 @@
         $(".owl-carousel").owlCarousel({
             animateOut: "slideOutDown",
             animateIn: "flipInX",
-            loop: true,
             margin: 10,
             responsiveClass: true,
             autoplay: true,
@@ -54,6 +53,10 @@
                 },
                 600: {
                     items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
                     nav: false
                 }
             }
