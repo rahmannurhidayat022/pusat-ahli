@@ -45,7 +45,7 @@
             margin: 10,
             responsiveClass: true,
             autoplay: true,
-            autoplayTimeout: 3500,
+            autoplayTimeout: 3000,
             lazyLoad: true,
             responsive: {
                 0: {
@@ -53,11 +53,7 @@
                     nav: false
                 },
                 600: {
-                    items: 3,
-                    nav: false
-                },
-                1000: {
-                    items: 4,
+                    items: 2,
                     nav: false
                 }
             }
