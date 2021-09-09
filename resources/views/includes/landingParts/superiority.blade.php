@@ -44,7 +44,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Seleksi psikotes</th>
+                        <th>Seleksi psikotest</th>
                         <td>
                             <i class="text-danger fa fa-times fa-3x"></i>
                         </td>

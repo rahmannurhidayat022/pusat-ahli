@@ -15,7 +15,7 @@
     </head>
     <body>
         @include('includes.navbar')
-        <main>
+        <main style="background-color: rgba(255, 255, 255, 0.7);">
             @include('includes.landingParts.hero')
             @include('includes.landingParts.features')
             @include('includes.landingParts.superiority')
