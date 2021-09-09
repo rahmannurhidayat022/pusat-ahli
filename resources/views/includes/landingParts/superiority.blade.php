@@ -4,7 +4,10 @@
             Kenapa TEMPAT AHLI itu berbeda?
         </h2>
         <div class="table-responsive">
-            <table class="table shadow-sm">
+            <table
+                class="table shadow-sm"
+                style="border-radius: 20px; overflow: hidden;"
+            >
                 <thead class="bg-orange">
                     <tr>
                         <th scope="col">Kualifikasi</th>
@@ -14,10 +17,10 @@
                 </thead>
                 <tbody class="bg-white">
                     <tr>
-                        <th scope="row">
+                        <td>
                             Hanya menampilkan dan merekomendasikan lowongan yang
                             sesuai kualifikasi dan keahlian pelamar
-                        </th>
+                        </td>
                         <td>
                             <i class="text-danger fa fa-times fa-3x"></i>
                         </td>
@@ -26,7 +29,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Pembuatan CV otomatis</th>
+                        <td>Pembuatan CV otomatis</td>
                         <td>
                             <i class="text-danger fa fa-times fa-3x"></i>
                         </td>
@@ -35,7 +38,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Auto screnning kualifikasi pelamar</th>
+                        <td>Auto screnning kualifikasi pelamar</td>
                         <td>
                             <i class="text-danger fa fa-times fa-3x"></i>
                         </td>
@@ -44,7 +47,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Seleksi psikotest</th>
+                        <td>Seleksi psikotest</td>
                         <td>
                             <i class="text-danger fa fa-times fa-3x"></i>
                         </td>

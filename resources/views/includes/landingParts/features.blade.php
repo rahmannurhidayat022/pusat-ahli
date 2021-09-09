@@ -1,13 +1,6 @@
 <section id="features" class="my-5">
-    <div class="container">
-        <h2 data-aos="fade-up" class="h2 mb-4">
-            Kenapa harus belajar di
-            <span class="text-primary">PUSAT</span>
-            <span class="text-orange">AHLI</span>?
-        </h2>
-    </div>
-    <div class="feature-1 shadow-sm mb-3 py-5 bg-white">
-        <div class="container">
+    <div class="feature-1 mb-4 bg-white">
+        <div class="container py-5 rounded-lg shadow-sm">
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
@@ -19,9 +12,14 @@
                     />
                 </div>
                 <div class="col-sm-12 col-md-6">
+                    <h3 data-aos="fade-up" class="h3 mb-4">
+                        Kenapa harus belajar di
+                        <span class="text-primary">PUSAT</span>
+                        <span class="text-orange">AHLI</span>?
+                    </h3>
                     <p
                         data-aos="fade-up"
-                        class="text-gray-600"
+                        class="text-justify"
                         style="font-size: medium; line-height: 32px;"
                     >
                         Karena Hanya di Pusat Ahli kamu bisa mendapatkan
@@ -29,16 +27,16 @@
                         bidangnya, ribuan video pembelajaran, sertifikasi
                         keahlian dan Prioritas Mendapatkan pekerjaan dalam satu
                         platform.
-                        <button class="btn btn-primary rounded mt-4 d-block">
-                            Selengkapnya
-                        </button>
                     </p>
+                    <button class="btn btn-primary rounded mt-4 d-block">
+                        Selengkapnya
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="feature-2 shadow-sm mb-3 py-5">
-        <div class="container">
+    <div class="feature-2 mb-4">
+        <div class="container py-5 rounded-lg shadow-sm">
             <div class="row my-2">
                 <div class="col-sm-12 col-md-0 d-flex justify-content-end">
                     <img
@@ -50,12 +48,12 @@
                     />
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <h3 data-aos="fade-up" class="h4">
+                    <h3 data-aos="fade-up" class="h3 mb-4">
                         Kenapa harus di BELAJAR AHLI?
                     </h3>
                     <p
                         data-aos="fade-up"
-                        class="text-gray-600"
+                        class="text-justify"
                         style="font-size: medium; line-height: 32px;"
                     >
                         Hanya di belajar ahli, kamu bisa mendapatkan pengajaran
@@ -83,8 +81,8 @@
             </div>
         </div>
     </div>
-    <div class="feature-3 shadow-sm mb-3 py-5 bg-white">
-        <div class="container">
+    <div class="feature-3 mb-4 bg-white">
+        <div class="container py-5 rounded-lg shadow-sm">
             <div class="row my-2">
                 <div class="col-sm-12 col-md-6 d-flex justify-content-start">
                     <img
@@ -96,12 +94,12 @@
                     />
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <h3 data-aos="fade-up" class="h4">
+                    <h3 data-aos="fade-up" class="h3 mb-4">
                         Kenapa harus di TEMPAT AHLI?
                     </h3>
                     <p
                         data-aos="fade-up"
-                        class="text-gray-600"
+                        class="text-justify"
                         style="font-size: medium; line-height: 32px;"
                     >
                         Karena setelah mendapat pendidikan dan sertifikasi resmi

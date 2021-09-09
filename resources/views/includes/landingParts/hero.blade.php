@@ -13,6 +13,7 @@
                 class="d-flex flex-column align-items-center justify-content-md-center col-sm-12 col-md-6 "
             >
                 <p
+                    class="text-justify"
                     data-aos="fade-up"
                     style="font-size: larger; line-height: 32px;"
                 >

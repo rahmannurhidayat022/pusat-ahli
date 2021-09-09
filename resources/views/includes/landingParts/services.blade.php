@@ -15,7 +15,7 @@
                         alt="service-1"
                     />
                     <div class="card-body">
-                        <p>
+                        <p class="text-justify">
                             Belajar Ahli adalah tempat bimbingan belajar bagi
                             semua kalangan dan kursus bersertifikasi resmi dari
                             Belajar Ahli yang akan kami rekomendasikan di Tempat
@@ -38,7 +38,7 @@
                         alt="service-1"
                     />
                     <div class="card-body">
-                        <p>
+                        <p class="text-justify">
                             Tempat Ahli adalah portal lowongan pekerjaan yang
                             akan menyesuaikan antara sertifikasi keahlian anda
                             dengan lowongan pekerjaan yang ada
