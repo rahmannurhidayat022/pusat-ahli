@@ -41,6 +41,7 @@
         $(".owl-carousel").owlCarousel({
             animateOut: "slideOutDown",
             animateIn: "flipInX",
+            loop: true,
             margin: 10,
             responsiveClass: true,
             autoplay: true,
@@ -49,7 +50,7 @@
             responsive: {
                 0: {
                     items: 1,
-                    nav: true
+                    nav: false
                 },
                 600: {
                     items: 3,
