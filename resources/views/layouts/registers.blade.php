@@ -380,7 +380,7 @@
                                     <option value="yes"
                                         >Saya mau beli koin sekarang!</option
                                     >
-                                    <option value="No"
+                                    <option value="no"
                                         >Nanti saja beli koinnya</option
                                     >
                                 </select>
@@ -587,9 +587,70 @@
             </div>
         </form>
 
+        <div
+            class="modal fade"
+            id="validate"
+            data-backdrop="static"
+            data-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div
+                            class="w-100 d-flex justify-content-center align-items-center"
+                        >
+                            <img
+                                loading="lazy"
+                                class="img-fluid d-block"
+                                src="{{ asset('images/logo.png') }}"
+                                alt="brand pusat ahli"
+                            />
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="font-weight-bolder" for="phone"
+                                >Nomor Handphone</label
+                            >
+                            <input
+                                class="form-control"
+                                type="number"
+                                name="phone"
+                                id="phone"
+                                placeholder="08771256xxxx"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <button
+                        onclick="toHome()"
+                        type="button"
+                        class="mx-auto mb-4 btn btn-primary"
+                    >
+                        Selanjutnya
+                    </button>
+                    <p class="w-100 text-center">
+                        Belum daftar? <a id="daftar" href="javascript::void()">Daftar</a></p
+                    >
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @include('includes.script')
         <script>
+            function toHome() {
+                window.location.replace("/home");
+            }
+
             $(document).ready(function() {
+                $('#daftar').click(() => {
+                    $('#validate').modal('hide')
+                    $('#register').modal('show');
+                });
                 $("#toRegister").modal("show");
 
                 $("#options").change(function() {
@@ -598,34 +659,41 @@
                     if (val === "no") {
                         $("#register").modal("show");
                     } else {
-                        console.log("Yess");
+                        $("#validate").modal("show");
                     }
+                });
+                $("#nextToVideo").click(() => {
+                    $("#toRegister").modal("hide");
+                    $("#register").modal("hide");
+                    $("#video").modal("show");
+                });
 
-                    $("#nextToVideo").click(() => {
-                        $("#toRegister").modal("hide");
-                        $("#register").modal("hide");
-                        $("#video").modal("show");
-                    });
+                $("#nextToInterest").click(() => {
+                    $("#video").modal("hide");
+                    $("#interest").modal("show");
+                });
 
-                    $("#nextToInterest").click(() => {
-                        $("#video").modal("hide");
-                        $("#interest").modal("show");
-                    });
+                $("#nextToBuy").click(() => {
+                    $("#interest").modal("hide");
+                    $("#koin").modal("show");
+                });
 
-                    $("#nextToBuy").click(() => {
-                        $("#interest").modal("hide");
-                        $("#koin").modal("show");
-                    });
+                $("#buying").change(function() {
+                    const buy = $(this).val();
 
-                    $("#nextToPayment").click(() => {
-                        $("#koin").modal("hide");
-                        $("#payment").modal("show");
-                    });
+                    if (buy === "no") {
+                        toHome();
+                    }
+                });
 
-                    $("#finally").click(() => {
-                        $("#payment").modal("hide");
-                        $("#congratulation").modal("show");
-                    });
+                $("#nextToPayment").click(() => {
+                    $("#koin").modal("hide");
+                    $("#payment").modal("show");
+                });
+
+                $("#finally").click(() => {
+                    $("#payment").modal("hide");
+                    $("#congratulation").modal("show");
                 });
             });
         </script>
